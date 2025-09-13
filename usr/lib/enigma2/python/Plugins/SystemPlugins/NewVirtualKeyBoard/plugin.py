@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 from Plugins.Plugin import PluginDescriptor
@@ -45,3 +45,4 @@ def Plugins(**kwargs):
 	if config.NewVirtualKeyBoard.showinplugins.value:
 		result.append(pluginlist)
 	return result
+
