@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 # Code mfaraj57 and Fairbird
@@ -66,3 +66,4 @@ def trace_error():
         traceback.print_exc(file=open('/tmp/VirtualKeyBoard.log', 'a'))
     except:
         pass
+
