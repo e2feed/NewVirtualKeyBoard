@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 # Code mfaraj57 and RAED (Fairbird)
@@ -300,5 +300,6 @@ class nvKeyboardSetup(ConfigListScreen, Screen):
         
     def myCallback(self,result):
         return
+
 
 
