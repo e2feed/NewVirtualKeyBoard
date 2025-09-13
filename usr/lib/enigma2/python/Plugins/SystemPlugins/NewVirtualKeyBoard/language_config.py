@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # Centralized language configuration for NewVirtualKeyBoard
 
@@ -46,3 +46,4 @@ def initialize_config(config):
         config.NewVirtualKeyBoard.lang = ConfigSelection(default="EN", choices=get_language_choices())
         config.NewVirtualKeyBoard.lang.save()
         configfile.save()
+
